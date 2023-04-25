@@ -28,5 +28,7 @@ static WebDriver driver;
 		String zoom= "document.body.style.zoom ='scale("+zoomPercentage+"+)'";
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript(zoom);
+		
+		
 	}
 }
